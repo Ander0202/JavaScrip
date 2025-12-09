@@ -1,0 +1,20 @@
+Declaration
+-let (variable)
+-const (constante)
+-function*
+-async function*
+-class
+-export/import
+
+Statements
+-it
+-for
+-else
+switch
+
+
+Expression (cada vez que el codigo hace algo y obtenemos 
+un valor de este estamos ante una expression)
+4+6=10 
+x=4
+miFuncion()

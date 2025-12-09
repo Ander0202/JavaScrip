@@ -1,0 +1,8 @@
+Operadores --> Crear Expresiones --> Crear algoritmos
+
+OPERADORES:
+-Aritmeticos
+-Asignacion
+-Comparacion
+-Logicos
+-Bitwise
