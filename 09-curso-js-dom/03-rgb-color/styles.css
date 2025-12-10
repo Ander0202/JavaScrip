@@ -1,0 +1,86 @@
+/* Estilos generales*/
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: rgb(25, 66, 87);
+}
+
+/* Contenedores */
+
+.contenedor-principal {
+  width: 50vw;
+  max-width: 600px;
+  min-height: 350px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  border-radius: 50px;
+}
+
+/* Colores RGB*/
+
+.color {
+  padding: 10px;
+  margin: 10px;
+  font-size: 2em;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+label,
+p {
+  margin: 10px;
+}
+
+#rojo,
+#verde,
+#azul {
+  cursor: pointer;
+}
+
+.titulo {
+  margin: 20px;
+}
+
+@media (min-width: 850px) {
+  #rojo,
+  #verde,
+  #azul {
+    width: 200%;
+  }
+}
+
+@media (max-width: 500px) {
+
+	.color {
+  padding: 8px;
+  margin: 5px;
+  font-size: 1.5em;
+}
+
+.titulo {
+	font-size: small
+}
+
+label,
+p {
+  margin: 8px;
+}
+
+}

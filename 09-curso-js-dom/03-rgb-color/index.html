@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" type="imagen/png" href="imagenes/favicon.png" />
+    <title>Color RGB</title>
+  </head>
+
+  <body>
+    
+    <div class="contenedor-principal">
+      <div class="titulo">
+      <h1 id="titulo">Mezclador de Colores RGB</h1>
+      </div>
+      <div class="contenedor">
+        <div class="color">
+          <label for="rojo">Rojo (R)</label>
+          <input id="rojo" type="range" min="0" max="255" value="25" step="1">
+          <p id="texto-rojo"></p>
+        </div>
+        <div class="color">
+          <label for="rojo">Verde (G)</label>
+          <input id="verde" type="range" min="0" max="255" value="66" step="1">
+          <p id="texto-verde"></p>
+        </div>
+        <div class="color">
+          <label for="azul">Azul (B)</label>
+          <input id="azul" type="range" min="0" max="255" value="87" step="1">
+          <p id="texto-azul"></p>
+        </div>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
