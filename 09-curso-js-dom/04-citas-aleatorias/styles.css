@@ -1,0 +1,78 @@
+/* Estilos generales*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: url(imagenes/biblioteca-2.jpg) no-repeat center center/ cover;
+}
+
+.contenido-centrado {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.contenedor {
+  width: 80vw;
+  max-width: 600px;
+  min-height: 500px;
+  padding: 18px;
+  background-color: white;
+  border: 5px solid black;
+  border-radius: 30px;
+}
+
+.contenedor-interno {
+  width: 80%;
+}
+
+#titulo {
+  width: 100%;
+  font-weight:bold;
+  text-align: center;
+  font-family: 'courgette', cursive, sans-serif;
+}
+
+#cita {
+  font-size: 32px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  text-align: center;
+  margin: 10px
+}
+
+#autor {
+  width: 100%;
+  font-size: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  font-family: 'courgette', cursive, sans-serif;
+}
+
+#boton {
+  width: 35%;
+  height: 45px;
+  font-size: 100%
+}
+
+@media (max-width: 600px) {
+#boton {
+  width: 50%;
+  font-size: 90%;
+  height: 50px;
+}
+}
